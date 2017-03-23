@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Cards {
-
+ 
 	public void createdeck() throws IOException {
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
