@@ -20,6 +20,7 @@ public class RandomDeckimpl implements RandomDeck {
 		 */
 
 		for (int i = 0; i < CommonConstants.suits.length; i++) {
+			card.add(new Card(CommonConstants.JOKER, CommonConstants.JOKER));
 			for (int k = 0; k < CommonConstants.ranks.length; k++) {
 				card.add(new Card(CommonConstants.suits[i], CommonConstants.ranks[k]));
 			}
